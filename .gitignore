@@ -3,7 +3,6 @@ __pycache__/
 .idea/
 *.py[cod]
 *$py.class
-.vscode
 .claude
 AGENTS.md
 
@@ -110,7 +109,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 /.venv-*/
 env/
@@ -160,7 +158,6 @@ main/manager-web/node_modules
 .config.yaml
 .secrets.yaml
 .private_config.yaml
-.env.development
 
 # model files
 main/xiaozhi-server/models/SenseVoiceSmall/model.pt
@@ -182,7 +179,6 @@ main/manager-web/.webpack_cache/
 main/xiaozhi-server/mysql
 uploadfile
 *.json
-.vscode
 .cursor
  
 !package.json
@@ -197,3 +193,5 @@ uploadfile
 main/digital-human/wakeword_runtime/models
 main/digital-human/wakeword_runtime/sherpa-onnx-kws-zipformer-wenetspeech-3.3M-2024-01-01
 sherpa-onnx-kws-zipformer-wenetspeech-3.3M-2024-01-01.tar.bz2
+config.bat
+node_modules
